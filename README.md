@@ -16,3 +16,8 @@ Test Scenarios:
 > Validate iTunes search API Response for content results with limit.
 > Validate iTunes search API Response for content in given language
 > Validate iTunes search API Response for cross-site searches (JSONP Validation)
+
+
+Execution:
+git clone https://github.com/sraone1247/assignment.git
+mvn test
