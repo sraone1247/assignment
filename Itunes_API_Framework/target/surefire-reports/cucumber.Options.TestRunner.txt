@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: cucumber.Options.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 19, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 32.628 s <<< FAILURE! - in cucumber.Options.TestRunner
+Validate iTunes Search API Response filtering based on media #1(iTunes Search API Validations)  Time elapsed: 0.665 s  <<< FAILURE!
+java.lang.AssertionError: Node 4 missing the search term
+
+Validate iTunes Search API Response filtering based on media #4(iTunes Search API Validations)  Time elapsed: 1.347 s  <<< FAILURE!
+java.lang.AssertionError: Node 1 missing the search term
+
+Validate iTunes Search API Response filtering based on media #5(iTunes Search API Validations)  Time elapsed: 0.172 s  <<< FAILURE!
+java.lang.AssertionError: expected:<null> but was:<audiobook>
+
+Validate iTunes Search API Response filtering based on media #7(iTunes Search API Validations)  Time elapsed: 6.567 s  <<< FAILURE!
+java.lang.AssertionError: Node 1 missing the search term
+
